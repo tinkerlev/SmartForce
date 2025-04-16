@@ -160,7 +160,7 @@ Use it for good.
 
 ## 🙋 About the Author
 
-SmartForce was created by [Loai Deeb](https://www.linkedin.com/in/loai-deeb/), a cybersecurity teacher and ethical hacking enthusiast who builds practical tools for educational and research use.
+SmartForce was created by [Loai Deeb](https://www.linkedin.com/in/loai-deeb/), a cybersecurity lecturer and ethical hacking enthusiast who builds practical tools for educational and research use.
 
 GitHub repository: [SmartForce](https://github.com/tinkerlev/)
 
