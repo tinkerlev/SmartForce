@@ -1,10 +1,10 @@
-# SmartForce - AI-Assisted Web Login Bruteforcer
+# SmartForce - Intelligent Web Login Bruteforcer
 
 SmartForce is a lightweight and beginner-friendly tool that helps simulate automated login testing — for **educational, ethical, and research purposes only**.
 
 It helps students, researchers, and ethical hackers understand how login mechanisms behave under realistic testing conditions.
 
-⚠️ **This tool is strictly for learning and authorized security testing. Never use it on systems you don't have permission to test.**
+⚠️ **This tool is strictly for learning and authorized security testing. Never use it on systems you don’t have permission to test.**
 
 ---
 
@@ -25,30 +25,27 @@ It helps students, researchers, and ethical hackers understand how login mechani
 ## 📦 How to Install SmartForce
 
 ### Step 1: Download the project
-Open your terminal and type:
 ```bash
-git clone https://github.com/YOUR_USERNAME/smartforce.git
+git clone https://github.com/tinkerlev/smartforce.git
 cd smartforce
 ```
 
 ### Step 2: Make sure Python 3 is installed
-Type:
 ```bash
 python3 --version
 ```
-If it's not installed, get it from [https://www.python.org](https://www.python.org)
+If it’s not installed, get it from [python.org](https://www.python.org)
 
 ### Step 3: Install the required Python libraries
 You can install the libraries one by one:
 ```bash
 pip install requests bs4
 ```
-
-Or install everything at once using:
+Or install everything at once:
 ```bash
 pip install -r requirements.txt
 ```
-The `requirements.txt` file includes:
+`requirements.txt` includes:
 ```
 requests
 bs4
@@ -95,7 +92,7 @@ Do you want to try ALL passwords? (y/n)
 
 ### Step 6: Choose field names
 You can enter either a field **name** or **index** shown earlier:
-```
+```bash
 Username field name or index: 4
 Password field name or index: pass
 ```
@@ -115,12 +112,12 @@ smartforce_results.json
 
 ## 📁 Project Files Explained
 
-| File                      | Description                          |
-|---------------------------|--------------------------------------|
-| `smart_bruteforcer.py`    | Main script                          |
-| `usernames.txt`           | Usernames found on the site          |
-| `passwords.txt`           | Auto-generated smart password list   |
-| `smartforce_results.json` | Full result log                      |
+| File                    | Description                          |
+|-------------------------|--------------------------------------|
+| `smart_bruteforcer.py`  | Main script                          |
+| `usernames.txt`         | Usernames found on the site          |
+| `passwords.txt`         | Auto-generated smart password list   |
+| `smartforce_results.json` | Full result log                    |
 
 ---
 
@@ -130,47 +127,48 @@ smartforce_results.json
   - A word like `logout`, `dashboard`, `bienvenido`
   - A redirect (HTTP 302)
 - Test on sites with real forms (not just marketing pages)
-- If you're not getting results, try a more active page
+- If you’re not getting results, try a more active page
 
 You can also route traffic through TOR:
 ```bash
 python3 smart_bruteforcer.py https://example.com --proxy
 ```
-(Ensure the TOR service is running on port 9050)
+Make sure the TOR service is running on port 9050.
 
 ---
 
 ## 🛠️ Troubleshooting
 
-| Issue                             | Suggestion                                               |
-|----------------------------------|----------------------------------------------------------|
-| No usernames found               | Try scanning a more content-rich page                   |
-| No input fields detected         | Check the URL — form may be on another subpage         |
-| All attempts show SUCCESS        | Verify you used correct field names                     |
-| Crashes on start                 | Ensure dependencies are installed (see install steps)   |
+| Issue                    | Suggestion                                               |
+|--------------------------|----------------------------------------------------------|
+| No usernames found       | Try scanning a more content-rich page                    |
+| No input fields detected | Check the URL — the form may be on another subpage       |
+| All attempts show SUCCESS| Verify you used correct field names                      |
+| Crashes on start         | Ensure dependencies are installed (see install steps)    |
 
 ---
 
 ## 🧾 Be Responsible
-SmartForce is here to help you learn and explore safely.
-Only use it on websites and systems you’re allowed to test.
+SmartForce is here to help you learn and explore safely.  
+Only use it on websites and systems you’re allowed to test.  
 Use it for good.
 
 ---
 
 ## 🙋 About the Author
 
-SmartForce was created by [Loai Deeb](https://www.linkedin.com/in/loai-deeb/), a cybersecurity lecturer and ethical hacking enthusiast who builds practical tools for educational and research use.
+SmartForce was created by [Loai Deeb](https://www.linkedin.com/in/loai-deeb/), a cybersecurity teacher and ethical hacking enthusiast who builds practical tools for educational and research use.
 
-GitHub repository: [SmartForce](https://github.com/tinkerlev/)
+[SmartForce GitHub repository](https://github.com/tinkerlev/SmartForce)
 
 Feel free to connect or contribute.
 
 ---
 
 ## 📬 Questions or Feedback?
+
 Open an issue on GitHub or contact the author.
 
 ---
 
-Stay ethical — and keep learning 💻✨
+**Stay ethical — and keep learning!** 💻✨
